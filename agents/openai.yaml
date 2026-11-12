@@ -1,4 +1,4 @@
 interface:
-  display_name: "实验报告与 Word 交付"
-  short_description: "按手册核对实验，按模板或 LaTeX 写简洁英文报告，先交可编辑 Word，等待外部交叉检查"
-  default_prompt: "请使用 $concise-lab-report 完成这次实验报告：核对手册和实际结果，有模板按模板写，无模板用 LaTeX，先交可编辑 Word。学号和 PDF 由我处理，之后我会带回另一个 AI 的检查意见。"
+  display_name: "通用报告与 Word 交付"
+  short_description: "按报告用途核对要求与证据，保留简洁写作风格，先交可编辑 Word 并等待外部检查"
+  default_prompt: "请使用 $concise-lab-report 完成这份报告：按用途、要求和模板选择结构，核对真实证据，保留我的简洁写作风格，先交可编辑 Word；适用的身份信息和最终 PDF 由我处理，之后我会带回外部检查意见。"
